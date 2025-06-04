@@ -174,7 +174,7 @@ function main() {
             camera2.aspect = aspect;
             camera2.updateProjectionMatrix();
             cameraHelper.visible = true;
-            lightHelper.visible = false;
+            lightHelper.visible = true;
             renderer.setClearColor(0x000040);
             renderer.render(scene, camera2);
         }
