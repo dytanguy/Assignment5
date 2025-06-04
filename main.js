@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {OBJLoader} from 'three/addons/loaders/OBJLoader.js';
 import {MTLLoader} from 'three/addons/loaders/MTLLoader.js';
-import {GUI} from 'lil-gui'; 
+import GUI from 'lil-gui'; 
 import { DDSLoader } from 'three/addons/loaders/DDSLoader.js';
 import { EXRLoader } from 'three/addons/loaders/EXRLoader.js';
 
