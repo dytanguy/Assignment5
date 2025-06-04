@@ -95,7 +95,7 @@ function main() {
     const geometry = new THREE.BoxGeometry(boxWidth, boxHeight, boxDepth);
 
     const loaderNihility = new THREE.TextureLoader();
-    const textureNihility = loaderNihility.load( 'nihility.jpg' );
+    const textureNihility = loaderNihility.load( 'model/nihility.jpg' );
     texture.colorSpace = THREE.SRGBColorSpace;
 
     const material = new THREE.MeshPhongMaterial({map: textureNihility});
